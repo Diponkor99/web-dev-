@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+        font-family:sans-serif;
+        margin: 0px;
+      }
+    /* font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; */
+  
+
+  .nev-head{
+    font-weight: 700;
+    font-size:45px;}
+
+  #nav-color{
+    color:#FD6E0A;
+}
+  .navber{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:51px 226px;
+  }
+  nav > ul >li{
+    list-style: none;
+  }
+  nav ul li >a{
+    text-decoration: none;
+    color:#474747;
+    font-size: 20px;
+    margin-right: 52px;}
+    
+    .su{
+        display: flex;
+        align-items: center;}
+    #bat{
+        background-color: #FD6E0A;
+       
+        padding:10px 10px;
+       border-radius:5px;
+       font-size: 20px;
+       font-weight: bold;
+        
+    }
+    #baton{
+        background-color: #FD6E0A;
+        margin:18px 0px 18px 36px;
+        border: none;
+    }
+    .ah4{
+        color:#474747;
+        font-size:45px ;
+        font-weight:600;
+
+    }
+    .ah1{
+        color:#181818;
+        font-size: 85px;
+        font-weight: bold;
+    }
+    .ap1{
+        color: #757575;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .two{
+        display: flex;
+       justify-content: space-between;
+       
+    }
+    .pic1{
+        width: 584px;
+
+    }
+    .tittle{
+       max-width: 584px;
+      /* justify-content: space-between; */
+      margin: 0px 35px 0px 215px;
+
+    }
+    .background-pic{
+      background-image:url(images/developer.png), url(images/header_bg.png);
+      background-repeat: no-repeat;
+      background-position: top left, bottom right;
+      margin-left: auto,0px;
+      background-color:#FFF8F3;
+    }
+
+    #Download-b{
+      background-color: #FD6E0A;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 18px;
+
+    }
+    #contact{
+      font-size: 20px;
+      font-weight: bold;
+      color: #FD6E0A;
+      padding: 18px 24px;
+      margin-left: 30px;
+      border-color: #FD6E0A;
+    }
+    .about-Me{
+      font-size: 35px;
+      font-weight: bold;
+      color:#181818;
+    }
+    .about-p{
+      font-size: 18px;
+      color:#474747;
+      font-weight: 400;
+      padding-right: 30px;
+     
+    }
+    .dip{
+      width: 827px;
+      border:1px solid #474747;
+      padding: 10px;
+      /* justify-content: center; */
+      text-align: center;
+      align-items: center;
+      margin: 130px 155px;
+    }
+    .titile{
+     
+      text-align: center;
+      align-items: center;
+      
+     }
+     .titel-head{
+      
+        max-width:1140px ;
+        margin: 130px auto;
+        background-color: #FFF8F3;
+       
+        padding: 130px 155px;
+      
+     }
+     .about-ti{
+      font-size: 20px;
+      font-weight: 400;
+      color: #757575;
+      padding-right: 30px;
+     }
+   
+    .about{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+ .poster{
+   display: flex;
+   
+   
+  }
+  .skill-tittle{
+    font-size: 35px;
+    font-weight: bold;
+       text-align:center ;
+   margin-bottom: 10px;
+  }
+.skill-detiels{
+    font-size: 18px;
+    font-weight:100;
+    color:#757575;
+   text-align:center ;
+   margin: 0px auto;
+    width: 909px;
+ }
+.poster-capton{
+  font-size: 20px;
+  font-weight:bold ;
+}
+.poster-deatiles{
+  font-size: 16px;
+  font-weight:300;
+}
+.poster-inbox1{
+  width: 267px;
+  box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.05) ;
+   padding:30px;
+   margin: 24px;;}
+.poster-inbox2{
+  width: 267px;
+  box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.05) ;
+   padding:30px;
+    margin: 24px}
+    .poster-inbox3{
+      width: 267px;
+      box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.05) ;
+       padding:30px;
+        margin: 24px;}
+        .poster-inbox4{
+          width: 267px;
+          box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.05) ;
+           padding:30px;
+           margin: 24px;}
+.poster{
+   width:500px ;
+   margin: 50px auto;
+  justify-content: space-around ;
+  
+}
+
+.caption{
+  font-size: 35px;
+  font-weight: bold;
+  color:rgba(24, 24, 24, 1);
+  text-align:center;
+  margin-bottom: 100px;
+  margin-top: 130px;
+}
+.My-Education{
+  font-size:30px;
+  font-weight:bold;
+  color:rgba(71, 71, 71, 1);
+  margin-bottom: 30px;
+}
+
+.Master{
+  font-size: 25px;
+  font-weight: bold;
+  color:rgba(71, 71, 71, 1);
+  margin-bottom: 10px;
+}
+.Harvard{
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.caption-detiles{
+  font-size: 16px;
+  font-weight: 100;
+  width: 511px;
+  color:rgba(117, 117, 117, 1);
+  
+  margin: 0px auto 30px;
+  
+}
+#hr{margin-bottom: 30px;
+  width: 558px;
+  color:rgba(209, 209, 209, 1);
+  margin: 0px auto 0px;
+}
+  
+.guru{ 
+  text-align:center;
+ 
+}
+.Dipu-vai{
+  display: flex;
+  justify-content: space-around;
+  margin: 130px 230px 50px;
+}
+
+.dipu{
+  background-color: #FD6E0A;
+  width: 200px;
+  padding:19px ;
+  margin: 50px auto 113px;
+  text-align: center;
+  border-radius:5px;
+ 
+  
+}
+#p{
+  background-color: #FD6E0A;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  
+}
+.Connect{
+  font-size: 35px;
+  font-weight: bold;
+  color:rgba(24, 24, 24, 1);
+  text-align: center;
+  margin-top: 130px;
+}
+.Please{
+  width: 562px;
+  font-size: 16px;
+  font-weight: 200;
+  color:rgba(71, 71, 71, 1);
+  margin: 20px auto 30px;
+  
+}
+.img-hader{
+  text-align: center;
+
+}
+.Message{
+  font-size: 35px;
+  font-weight: bold;
+  color: rgba(24, 24, 24, 1);
+  margin-top: 130px;
+}
+#Name , #email{
+  font-size: 16px;
+  font-weight: 200;
+  background-color: rgba(255, 255, 255, 1);
+  width: 460px;
+  margin-bottom:24px ;
+}
+
+#Message-box{
+  font-size: 16px;
+  font-weight: 200;
+  background-color: rgba(255, 255, 255, 1);
+  width: 460px;
+  margin-bottom:24px ;
+  height: 180px;
+}
+
+
+  
+
+#pu{
+  font-size: 20px;
+  font-weight: bold;
+  color:rgba(255, 255, 255, 1);
+  background-color: #FD6E0A;
+  border: none;
+  padding:19px 40px;
+  border-radius: 5px;
+  margin-bottom: 139px;
+
+
+}
+.pro{
+  text-align: center;
+  
+  
+}
+.list{
+  width: 1600;
+  display: flex;
+  background-color: #FFF8F3;
+  /* padding: 130px auto; */
+  justify-content: space-around;
+}
